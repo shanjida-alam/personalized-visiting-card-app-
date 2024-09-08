@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6DAC9F8"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+     <!-- Header Section    -->
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:background="#673AB7"
+         android:orientation="horizontal">
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="0dp"
+              android:layout_marginTop="0dp"
+              android:text="Visiting Card App"
+              android:textColor="#09090B"
+              android:textSize="24sp"
+              android:textStyle="bold" />
+
+          <View
+              android:layout_width="0dp"
+              android:layout_height="0dp"
+              android:layout_weight="1" />
+
+     </LinearLayout>
+
+     <!-- Image Section    -->
+
+
+     <androidx.cardview.widget.CardView
+         android:layout_width="100dp"
+         android:layout_height="105dp"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="40dp"
+         app:cardCornerRadius="80dp">
+
+          <ImageView
+              android:id="@+id/my_image"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:scaleType="centerCrop"
+              android:src="@drawable/me" />
+
+     </androidx.cardview.widget.CardView>
+
+
+     <!--Name Section-->
+     <TextView
+         android:id="@+id/name"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="18dp"
+         android:text="Shanjida Alam"
+         android:textSize="24sp"
+         android:textStyle="bold" />
+
+     <TextView
+         android:id="@+id/dept"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="20dp"
+         android:text="Department: Computer Science"
+         android:textSize="16sp" />
+
+     <TextView
+         android:id="@+id/dept1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginLeft="43dp"
+         android:layout_marginTop="0dp"
+         android:text="and Engineering"
+         android:textSize="16sp" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="0dp"
+         android:layout_marginRight="27dp"
+         android:text="Session       : 2019-2020"
+         android:textSize="16sp" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="0dp"
+         android:layout_marginRight="15dp"
+         android:text="Registration\nNumber        : 20200650723"
+         android:textSize="16sp" />
+
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="0dp"
+         android:layout_marginRight="-2.1dp"
+         android:text="Hall               :Begum Sufia Kamal"
+         android:textSize="16sp" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginTop="0dp"
+         android:layout_marginRight="58dp"
+         android:text="Blood Group:B+"
+         android:textSize="16sp" />
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="40dp"
+         android:layout_marginRight="-10dp"
+         android:orientation="horizontal">
+
+          <ImageButton
+              android:id="@+id/dial"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:background="#A6DAC9F8"
+              android:scaleType="centerCrop"
+              android:src="@drawable/dial" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="6dp"
+              android:text="01877306914"
+              android:textSize="14sp" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="9dp"
+         android:layout_marginRight="-10dp"
+         android:orientation="horizontal">
+
+          <ImageButton
+              android:id="@+id/mail"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:background="#A6DAC9F8"
+              android:scaleType="centerCrop"
+              android:src="@drawable/mail" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="5dp"
+              android:text="shanjida.alam2020@gmail.com"
+              android:textSize="14sp" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="9dp"
+         android:layout_marginRight="-10dp"
+         android:orientation="horizontal">
+
+          <ImageButton
+              android:id="@+id/wa"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:background="#A6DAC9F8"
+              android:scaleType="centerCrop"
+              android:src="@drawable/wp" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="6dp"
+              android:text="01877306914"
+              android:textSize="14sp" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="9dp"
+         android:layout_marginRight="-10dp"
+         android:orientation="horizontal">
+
+          <ImageButton
+              android:id="@+id/fb"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:background="#A6DAC9F8"
+              android:scaleType="centerCrop"
+              android:src="@drawable/facebook" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="-1dp"
+              android:text="https://www.facebook.com/shanjida.alam.756?mibextid=ZbWKwL"
+              android:textSize="14sp" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="9dp"
+         android:layout_marginRight="-10dp"
+         android:orientation="horizontal">
+
+          <ImageButton
+              android:id="@+id/linkedin"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:background="#A6DAC9F8"
+              android:scaleType="centerCrop"
+              android:src="@drawable/linkedin" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="-1dp"
+              android:text="https://www.linkedin.com/in/shanjida-alam-541833204/"
+              android:textSize="14sp" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center_horizontal"
+         android:layout_marginLeft="15dp"
+         android:layout_marginTop="9dp"
+         android:layout_marginRight="-10dp"
+         android:orientation="horizontal">
+
+          <ImageButton
+              android:id="@+id/git"
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:background="#A6DAC9F8"
+              android:scaleType="centerCrop"
+              android:src="@drawable/github" />
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="12dp"
+              android:layout_marginTop="6dp"
+              android:text="https://github.com/shanjida-alam"
+              android:textSize="14sp" />
+
+     </LinearLayout>
+
+</LinearLayout>
