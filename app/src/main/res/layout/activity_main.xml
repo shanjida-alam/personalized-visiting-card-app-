@@ -22,7 +22,7 @@
               android:layout_marginLeft="0dp"
               android:layout_marginTop="0dp"
               android:text="Visiting Card App"
-              android:textColor="#09090B"
+              android:textColor="#FCFCFF"
               android:textSize="24sp"
               android:textStyle="bold" />
 
